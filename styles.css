@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    padding: 15px;
+}
+
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* IMAGES */
+
+.eevee {
+    width: 75%;
+    height: auto;
+}
+
+.pokeball {
+    width: 12px;
+    height: auto;
+    margin: 0 5px;
+}
