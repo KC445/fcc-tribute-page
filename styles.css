@@ -27,3 +27,34 @@ html {
     height: auto;
     margin: 0 5px;
 }
+
+/* Pokémon List */
+
+.list ul {
+    display: flex;
+}
+
+.split {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.name-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
