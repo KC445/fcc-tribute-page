@@ -10,19 +10,19 @@
 </head>
 
 <body>
-    <div class="heading">
-        <h1>Pokémon <span class="red">Red</span> and <span class="blue">Blue</span></h1>
-        <p>The OG Pokémon games. The best Pokémon games.</p>
-    </div>
-    <div class="photo">
-        <img src="images/eevee.jpg" alt="eevee in the wild" class="eevee">
-        <caption>A wild Eevee has appeared!</caption>
-    </div>
-    <div class="list">
-        <h2>Here is a list of the original 151 Pokémon from Red and Blue:</h2>
-        <ul>
-            <div class="split">
-                <div>
+    <main id="main">
+        <div class="heading">
+            <h1 id="title">Pokémon <span class="red">Red</span> and <span class="blue">Blue</span></h1>
+            <p>The OG Pokémon games. The best Pokémon games.</p>
+        </div>
+        <figure class="photo" id="img-div">
+            <img src="images/eevee.jpg" alt="eevee in the wild" class="eevee" id="image">
+            <figcaption id="img-caption">A wild Eevee has appeared!</figcaption>
+        </figure>
+        <div class="list" id="tribute-info">
+            <h2>Here is a list of the original 151 Pokémon from Red and Blue:</h2>
+            <ul>
+                <div class="split">
                     <div class="name-info">
                         <li class="name"><span>001</span><img src="images/pokeball.png" class="pokeball">Bulbasaur</li>
                         <ul class="info-card">
@@ -423,8 +423,6 @@
                             <li><span class="version">Version in: </span>Red/Blue</li>
                         </ul>
                     </div>
-                </div>
-                <div>
                     <div class="name-info">
                         <li class="name"><span>051</span><img src="images/pokeball.png" class="pokeball">Dugtrio</li>
                         <ul class="info-card">
@@ -825,8 +823,6 @@
                             <li><span class="version">Version in: </span>Red/Blue</li>
                         </ul>
                     </div>
-                </div>
-                <div>
                     <div class="name-info">
                         <li class="name"><span>101</span><img src="images/pokeball.png" class="pokeball">Electrode</li>
                         <ul class="info-card">
@@ -948,12 +944,12 @@
                         </ul>
                     </div>
                     <div class="name-info">
-                        <li class="name"><span>116</span><img src="images/pokeball.png" class="pokeball">Horsea/li>
-                            <ul class="info-card">
-                                <li><span class="type">Type: </span>Water</li>
-                                <li><span class="evolve">Evolves at: </span>Lvl 32</li>
-                                <li><span class="version">Version in: </span>Red/Blue</li>
-                            </ul>
+                        <li class="name"><span>116</span><img src="images/pokeball.png" class="pokeball">Horsea</li>
+                        <ul class="info-card">
+                            <li><span class="type">Type: </span>Water</li>
+                            <li><span class="evolve">Evolves at: </span>Lvl 32</li>
+                            <li><span class="version">Version in: </span>Red/Blue</li>
+                        </ul>
                     </div>
                     <div class="name-info">
                         <li class="name"><span>117</span><img src="images/pokeball.png" class="pokeball">Seadra</li>
@@ -964,12 +960,12 @@
                         </ul>
                     </div>
                     <div class="name-info">
-                        <li class="name"><span>118</span><img src="images/pokeball.png" class="pokeball">Goldeen/li>
-                            <ul class="info-card">
-                                <li><span class="type">Type: </span>Water</li>
-                                <li><span class="evolve">Evolves at: </span>Lvl 33</li>
-                                <li><span class="version">Version in: </span>Red/Blue</li>
-                            </ul>
+                        <li class="name"><span>118</span><img src="images/pokeball.png" class="pokeball">Goldeen</li>
+                        <ul class="info-card">
+                            <li><span class="type">Type: </span>Water</li>
+                            <li><span class="evolve">Evolves at: </span>Lvl 33</li>
+                            <li><span class="version">Version in: </span>Red/Blue</li>
+                        </ul>
                     </div>
                     <div class="name-info">
                         <li class="name"><span>119</span><img src="images/pokeball.png" class="pokeball">Seaking</li>
@@ -1123,7 +1119,6 @@
                             <li><span class="version">Version in: </span>Red/Blue</li>
                         </ul>
                     </div>
-
                     <div class="name-info">
                         <li class="name"><span>138</span><img src="images/pokeball.png" class="pokeball">Omanyte</li>
                         <ul class="info-card">
@@ -1228,8 +1223,6 @@
                             <li><span class="version">Version in: </span>Red/Blue</li>
                         </ul>
                     </div>
-                </div>
-                <div>
                     <div class="name-info">
                         <li class="name"><span>151</span><img src="images/pokeball.png" class="pokeball">Mew</li>
                         <ul class="info-card">
@@ -1239,15 +1232,14 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-        </ul>
-    </div>
-    <div class="quote">
-
-    </div>
-    <div class="footer">
-
-    </div>
+            </ul>
+        </div>
+        <div class="link">
+            <p>To find out more about Pokémon Red and Blue <a
+                    href="https://www.pokemon.com/us/pokemon-video-games/pokemon-red-version-and-pokemon-blue-version/"
+                    target="_blank" id="tribute-link">CLICK HERE!</a></p>
+        </div>
+    </main>
 </body>
 
 </html>
