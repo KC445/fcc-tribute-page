@@ -7,3 +7,10 @@
 html {
     padding: 15px;
 }
+
+/* IMAGES */
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
